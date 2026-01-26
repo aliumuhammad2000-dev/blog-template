@@ -6,6 +6,26 @@
   <link href="./dist/output.css" rel="stylesheet">
 </head>
 <body>
-  
+  <header>
+      <div class="md:text-center mb-4">
+          <h1 class="font-bold font-mono text-3xl">THUNDEY</h1>
+          <div class="px-4 cursor-pointer  md:hidden" id="nav">
+            <svg class="w-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><path d="M96 160C96 142.3 110.3 128 128 128L512 128C529.7 128 544 142.3 544 160C544 177.7 529.7 192 512 192L128 192C110.3 192 96 177.7 96 160zM96 320C96 302.3 110.3 288 128 288L512 288C529.7 288 544 302.3 544 320C544 337.7 529.7 352 512 352L128 352C110.3 352 96 337.7 96 320zM544 480C544 497.7 529.7 512 512 512L128 512C110.3 512 96 497.7 96 480C96 462.3 110.3 448 128 448L512 448C529.7 448 544 462.3 544 480z"/></svg>
+          </div>
+      </div>
+      <div class="hidden md:block" id="menu">
+          <nav class="flex flex-col gap-4 font-serif px-2 md:flex-row md:items-center justify-center md:gap-24">
+              <a href="#">Home</a><a href="#">About</a><a href="#">Feautures</a><a href="#">Categories</a><a href="#">Contact</a>
+          </nav>
+      </div>  
+      <div class="flex items-center justify-center p-3">
+        <div class="relative w-full max-w-md">
+            <input class="w-full rounded-lg border border-gray-300 bg-white py-3 pl-4 pr-12 text-gray-900 shadow-sm focus:border-black focus:outline-none focus:ring-1 focus:ring-black" placeholder="Search">
+            <div class="absolute inset-y-0 right-0 flex items-center pr-4 pointer-events-none">
+                <svg class="w-5 h-5 text-zinc-700" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
+            </div>
+        </div>
+      </div>
+  </header>
 </body>
 </html>
