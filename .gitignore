@@ -1,12 +1,5 @@
 node_modules/
 
-package-lock.json
-package.json
-
-dist/
-build/
-.cache/
-
 .env
 .env.local
 
